@@ -19,10 +19,10 @@ public class Main {
         int array1[] = {1,5,3,4,2};
         int array2[] = {1,3,2,5,8};
         int array3[] = {9,6,5,2,4,3,1,8,7};
-        System.out.println("\n----- Desafio 3: Mais longo Espaço Binário -----");
-        System.out.println("array1. Permutação? [1- Sim | 2- Não] : " + Permutacao.isPermutacao(array1));
-        System.out.println("Array2. Permutação? [1- Sim | 2- Não] : " + Permutacao.isPermutacao(array2));
-        System.out.println("Array3. Permutação? [1- Sim | 2- Não] : " + Permutacao.isPermutacao(array3));
+        System.out.println("\n----- Desafio 3: É Permutação? -----");
+        System.out.println("array1. Permutação? [1- Sim | 0- Não] : " + Permutacao.isPermutacao(array1));
+        System.out.println("Array2. Permutação? [1- Sim | 0- Não] : " + Permutacao.isPermutacao(array2));
+        System.out.println("Array3. Permutação? [1- Sim | 0- Não] : " + Permutacao.isPermutacao(array3));
 
         int arrayDistinto1[] = {1,5,3,4,2};
         int arrayDistinto2[] = {1,3,5,3,1};
